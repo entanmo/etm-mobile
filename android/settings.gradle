@@ -1,0 +1,9 @@
+rootProject.name = 'ETMWallet'
+include ':react-native-randombytes'
+project(':react-native-randombytes').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-randombytes/android')
+include ':react-native-view-shot'
+project(':react-native-view-shot').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-view-shot/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+
+include ':app'
